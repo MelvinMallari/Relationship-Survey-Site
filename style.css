@@ -4,13 +4,14 @@
     
 }
 body {
-    height: 100%;
+    height: 75%;
     margin: 0px;
     background-repeat: no-repeat;
     background: linear-gradient( #9fb9bf, #EAF7FB);
     background-attachment: fixed;
     text-align: center;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
 }
 
 html {
@@ -24,15 +25,16 @@ html {
 }
 .outer {
     display: table;
-    position: absolute;
+    position: relative;
     height: 100%;
     width: 100%;
+    margin: 0 auto;
   }
   
 .middle{
     display: table-cell;
     vertical-align: top;
-  }
+}
 
 .input-field {    
     border: 2px solid #c0c0c0;
@@ -45,9 +47,10 @@ html {
     margin-left: auto;
     margin-right: auto;
     background: #FFF;
-    height: 90%;
-    width: 45%;
+    height: 95%;
+    width: 60%;
     border-radius: 5px;
+    padding-bottom: 75px;
 }
 
 .input {
@@ -69,15 +72,19 @@ html {
 .radio {
     padding-bottom: 5px;
 }
+
 .row-tab {
     text-align: center;
 }
+
 .text-input-field {    
     border: 2px solid #c0c0c0;
     border-radius: 2p;
     width: 90%;
-    height: 75px;
+    height: 75%;
+    margin-bottom: 5px;
 }
+
 #description{
     font-size: 15px; 
     padding-top: 20px;
@@ -94,12 +101,25 @@ html {
     display: block;
     font-size: 2.5em;
     margin-block-start: 1em;
-    margin-block-end: 1em;
+    margin-block-end: 1em
 }
 
 #survey-form{
     margin: 0 auto;
     width: 90%;
+}
+
+#submit-button {
+    background: #a7adba;
+    color: white;
+    padding: 20px;
+    font-size: 16px;
+    border: 1px;
+    border-radius: 5%;
+    cursor: pointer;
+}
+#submit-button:hover{
+    height: 120%;
 }
 
 #checkbox-input {
