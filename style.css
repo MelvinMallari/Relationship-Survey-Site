@@ -110,16 +110,13 @@ html {
 }
 
 #submit-button {
-    background: #a7adba;
+    background: #c0c5ce;
     color: white;
     padding: 20px;
     font-size: 16px;
     border: 1px;
     border-radius: 5%;
     cursor: pointer;
-}
-#submit-button:hover{
-    height: 120%;
 }
 
 #checkbox-input {
