@@ -10,7 +10,7 @@ body {
     background: linear-gradient( #9fb9bf, #EAF7FB);
     background-attachment: fixed;
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'open sans', sans-serif;
     line-height: 1.5;
 }
 
@@ -77,6 +77,16 @@ html {
     text-align: center;
 }
 
+.submit-button {
+    background:	#c0c5ce;
+    color: white;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
 .text-input-field {    
     border: 2px solid #c0c0c0;
     border-radius: 2p;
@@ -109,16 +119,9 @@ html {
     width: 90%;
 }
 
-#submit-button {
-    background:	#c0c5ce;
-    color: white;
-    padding: 15px;
-    font-size: 16px;
-    border: 1px;
-    border-radius: 5%;
-    cursor: pointer;
-}
+
 
 #checkbox-input {
     padding-bottom: 5px;
+    border: 1px;
 }
